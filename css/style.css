@@ -125,8 +125,11 @@ body {
 /* ================HEADER====================== */
 
 .header {
-	padding: 30px 0px 40px 0px;
+	padding: 30px 0px 18px 0px;
 	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
 }
 .header__container {
 	position: relative;
@@ -166,7 +169,7 @@ body {
 /* ==================MAIN-SCREEN================================= */
 
 .main-screen {
-	padding: 40px 0px 105px 0px;
+	padding: 120px 0px 105px 0px;
 	background-color: #fff;
 }
 .main-screen__container {
@@ -383,6 +386,7 @@ body {
 	}
 	.header {
 		padding: 0;
+		position: relative;
 	}
 	.header__body {
 		position: absolute;
