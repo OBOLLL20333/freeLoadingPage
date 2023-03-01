@@ -391,13 +391,9 @@ body {
 	.header__body {
 		position: absolute;
 		top: -1000px;
-		background: #fff;
-		z-index: 10;
-		width: 100%;
-		height: 100vh;
+		transition: all 0.8s ease 0s;
 	}
 	._active .header__body {
-		position: absolute;
 		top: 65px;
 		background: #fff;
 		z-index: 10;
@@ -439,6 +435,8 @@ body {
 		background: #828282;
 		transform: rotate(45deg);
 	}
+	.burger-header__span::before,
+	.burger-header__span::after,
 	.burger-header__span {
 		position: relative;
 		width: 35px;
@@ -454,12 +452,8 @@ body {
 	.burger-header__span::before {
 		content: "";
 		position: absolute;
-		width: 35px;
-		height: 4px;
 		top: 10px;
 		left: 0;
-		background: #000;
-		transition: all 0.8s ease 0s;
 	}
 	._active .burger-header__span::before {
 		opacity: 0;
@@ -467,12 +461,8 @@ body {
 	.burger-header__span::after {
 		position: absolute;
 		content: "";
-		width: 35px;
-		height: 4px;
 		top: 20px;
 		left: 0;
-		background: #000;
-		transition: all 0.8s ease 0s;
 	}
 	._active .burger-header__span::after {
 		background: #828282;
