@@ -444,7 +444,7 @@ body {
 		transition: all 0.8s ease 0s;
 	}
 	._active .burger-header__button:hover .burger-header__span,
-	._active .burger-header__button:hover .burger-header__span::before {
+	._active .burger-header__button:hover .burger-header__span::after {
 		background: #090909;
 	}
 	.burger-header__span::before {
