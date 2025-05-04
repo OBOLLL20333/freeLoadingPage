@@ -368,7 +368,6 @@ body {
 	justify-content: space-around;
 }
 .list-contacts {
-	max-width: 350px;
 }
 .list-contacts__item:not(:last-child) {
 	margin-right: 13.5vmin;
